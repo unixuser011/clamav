@@ -1,3 +1,8 @@
+# DISCLAMER: This is not intented to take attention away from the orriginal designer of this Ansible role, this is just so that RH admins/Ansible users can continue to use this role
+# Jeff, I love what you do and can understand why you removed RH sources, but some of us still use it and still need these roles
+
+# I have not made any changes to the code that makes up this role, this is just an older version with RH support
+
 # Ansible Role: ClamAV
 
 [![CI](https://github.com/geerlingguy/ansible-role-clamav/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-clamav/actions?query=workflow%3ACI)
@@ -51,7 +56,7 @@ None.
     - hosts: servers
       become: true
       roles:
-        - geerlingguy.clamav
+        - unixuser011.clamav
 
 ## License
 
